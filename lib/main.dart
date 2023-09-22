@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter_electronic_control_app/drawer.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -14,6 +15,9 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.black87,
+      ),
       body: SingleChildScrollView(
         child: SafeArea(
           child: Container(
@@ -22,18 +26,18 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Icon(Icons.view_headline, size: 40),
-                      CircleAvatar(
-                        backgroundColor: Colors.black38,
-                      )
-                    ],
-                  ),
-                  SizedBox(
-                    height: 20,
-                  ),
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  //   children: [
+                  //     Icon(Icons.view_headline, size: 40),
+                  //     CircleAvatar(
+                  //       backgroundColor: Colors.black38,
+                  //     )
+                  //   ],
+                  // ),
+                  // SizedBox(
+                  //   height: 20,
+                  // ),
                   Text(
                     'Hi Krrish',
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -151,6 +155,7 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
+      drawer: MyDrawer(),
     );
   }
 }

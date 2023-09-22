@@ -1,3 +1,12 @@
+
+//clone of this
+
+
+![Screenshot 2023-09-21 202358](https://github.com/krrish9958/Electronic-control-app-ui/assets/114428213/2d7afa9f-9c49-41b1-93fb-6dc5fa797878)
+
+
+//here is my created one
+![Screenshot 2023-09-21 202107](https://github.com/krrish9958/Electronic-control-app-ui/assets/114428213/6ed207bb-8d0c-47c8-ac3d-12525258b478)
 # flutter_electronic_control_app
 
 A new Flutter project.
